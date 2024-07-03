@@ -9,8 +9,19 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
 3. [Scripts automatizados](automatizados/)
    - [Script de Respaldo](#script-de-respaldo)
 4. [Scripts semi-automatizados](semi-automatizados/)
-5. [Utilidades administrativas](utilidades/)
+   - [Script de instalación vsftpd](semi-automatizados/script_ftp.bash)
+6. [Utilidades administrativas](utilidades/)
    - [Script de administración para FTP](utilidades/script_adminFTP.bash)
 
 ## Clonación
-Para clonar este repositorio se necesita instalar git en la distribución de Linux.
+En caso de que no se tenga instalado git, se tiene que ejecutar primero:
+```sh
+sudo apt update
+sudo apt install git
+```
+Posteriormente, clonar el repositorio con:
+```sh
+git clone https://github.com/05545/Bash_scripts.git
+```
+
+
