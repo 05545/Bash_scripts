@@ -8,17 +8,8 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
 2. [Clonación del repositorio](#clonación)
 3. [Scripts automatizados](#automatizados)
    - [Script de Respaldo](#script-de-respaldo)
-   - [Limpieza de Archivos Temporales](#limpieza-de-archivos-temporales)
-   - [Monitoreo del Sistema](#monitoreo-del-sistema)
-   - [Descarga y Procesamiento de Archivos](#descarga-y-procesamiento-de-archivos)
-   - [Sincronización de Directorios](#sincronización-de-directorios)
-   - [Generador de Contraseñas](#generador-de-contraseñas)
-   - [Gestor de Tareas](#gestor-de-tareas)
-   - [Actualizaciones Automáticas](#actualizaciones-automáticas)
-   - [Renombrado Masivo de Archivos](#renombrado-masivo-de-archivos)
-   - [Registro de Cambios en Archivos](#registro-de-cambios-en-archivos)
-   - [Configuración del Ambiente de Desarrollo](#configuración-del-ambiente-de-desarrollo)
 4. [Scripts semi-automatizados](#semi-automatizados)
 5. [Utilidades administrativas](#utilidades)
 
 ## Clonación
+Para clonar este repositorio se necesita instalar git en la distribución de Linux.
