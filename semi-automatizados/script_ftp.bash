@@ -1,6 +1,7 @@
 #!/bin/bash
 # Script hecho por @05545 en github.com
 # Script para semi-automatizar la instalacion de la herramienta vsftpd para levantar servidor FTP
+# La herramienta vsftpd no es de autoria propia
 
 sudo apt update
 sudo apt install vsftpd -y
