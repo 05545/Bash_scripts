@@ -18,6 +18,7 @@ En caso de que no se tenga instalado git, se tiene que ejecutar primero:
 ```sh
 sudo apt update
 sudo apt install git
+git --version
 ```
 Posteriormente, clonar el repositorio con:
 ```sh
