@@ -5,8 +5,8 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
 
 ## Tabla de Contenidos
 1. [Introducción](#introducción)
-2. [Instalación](#instalación)
-3. [Uso](#uso)
+2. [Clonación del repositorio](#clonación)
+3. [Scripts automatizados](#automatizados)
    - [Script de Respaldo](#script-de-respaldo)
    - [Limpieza de Archivos Temporales](#limpieza-de-archivos-temporales)
    - [Monitoreo del Sistema](#monitoreo-del-sistema)
@@ -18,7 +18,7 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
    - [Renombrado Masivo de Archivos](#renombrado-masivo-de-archivos)
    - [Registro de Cambios en Archivos](#registro-de-cambios-en-archivos)
    - [Configuración del Ambiente de Desarrollo](#configuración-del-ambiente-de-desarrollo)
-4. [Contribuciones](#contribuciones)
-5. [Licencia](#licencia)
+4. [Scripts semi-automatizados](#semi-automatizados)
+5. [Utilidades administrativas](#utilidades)
 
-## Instalación
+## Clonación
