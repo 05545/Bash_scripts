@@ -6,10 +6,10 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
 ## Tabla de Contenidos
 1. [Presentación](#presentación)
 2. [Clonación del repositorio](#clonación)
-3. [Scripts automatizados](Bash_scripts/automatizados/)
+3. [Scripts automatizados](automatizados/)
    - [Script de Respaldo](#script-de-respaldo)
-4. [Scripts semi-automatizados](#semi-automatizados)
-5. [Utilidades administrativas](#utilidades)
+4. [Scripts semi-automatizados](semi-automatizados/)
+5. [Utilidades administrativas](utilidades/)
 
 ## Clonación
 Para clonar este repositorio se necesita instalar git en la distribución de Linux.
