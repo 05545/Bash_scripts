@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script hecho por @05545 en github.com
-# Script para guardar una copia de seguirdad de una carpeta o de un archivo en especifico
+# Script para guardar una copia de seguridad de una carpeta o de un archivo en especifico
 
 # Lectura y validación de directorio a respaldar
 echo "Ingresa la ruta del directorio/archivo que quieres respaldar: "
