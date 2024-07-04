@@ -5,15 +5,17 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
 
 ## Tabla de Contenidos
 1. [Presentación](#presentación)
-2. [Clonación del repositorio](#clonación)
-3. [Scripts automatizados](automatizados/)
-   - [Script de Respaldo](#script-de-respaldo)
-4. [Scripts semi-automatizados](semi-automatizados/)
+2. [Clonación del repositorio](#clonación-del-repositorio)
+3. [Forma de uso](#forma-de-uso)
+4. [Scripts automatizados](automatizados/)
+5. [Scripts semi-automatizados](semi-automatizados/)
    - [Script de instalación vsftpd](semi-automatizados/script_ftp.bash)
+   - [Script para liberar memoria de archivos temporales](semi-automatizados/script_borrarTemporales.bash)
 6. [Utilidades administrativas](utilidades/)
    - [Script de administración para FTP](utilidades/script_adminFTP.bash)
+   - [Script generador de contraseñas](utilidades/script_generadorContra.bash)
 
-## Clonación
+## Clonación del repositorio
 En caso de que no se tenga instalado git, se tiene que ejecutar primero:
 ```sh
 sudo apt update
@@ -24,5 +26,19 @@ Posteriormente, clonar el repositorio con:
 ```sh
 git clone https://github.com/05545/Bash_scripts.git
 ```
+## Forma de uso
+Los archivos dentro de este repositorio son con extensión **.bash**, por lo que al descargar un solo archivo, o en su defecto, todo el repositorio, e intentar ejecutar el archivo especifico se utiliza el comando:
+```sh
+sudo bash nombre_archivo.bash
+```
+> Se utilizan los permisos de superusuario porque algunos scripts requieren privilegios elevados para su correcto funcionamiento. En caso de que no los necesiten, otorgar permisos de superusuario no debería causar problemas.
 
-
+Para convertir un archivo **.bash** a **.sh** y hacerlo ejecutable, se puede utilizar el siguiente comando:
+```sh
+mv archivo.bash archivo.sh
+```
+Para ejecutar un archivo **.sh** se utiliza el comando:
+```sh
+./archivo.sh
+```
+> **Nota:** "archivo" hace referencia al nombre del archivo.
