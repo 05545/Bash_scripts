@@ -15,6 +15,7 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
    - [Script de administración para FTP](utilidades/script_adminFTP.bash)
    - [Script generador de contraseñas](utilidades/script_generadorContra.bash)
    - [Script para hacer copias de seguridad de directorios especificos](utilidades/script_respaldoP.bash)
+   - [Script para el listado de servicios y procesos activos](utilidades/script_scannerServicios.bash)
 
 ## Clonación del repositorio
 En caso de que no se tenga instalado git, se tiene que ejecutar primero:
