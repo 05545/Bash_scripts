@@ -7,11 +7,12 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
 1. [Presentación](#presentación)
 2. [Clonación del repositorio](#clonación-del-repositorio)
 3. [Forma de uso](#forma-de-uso)
-4. [Scripts automatizados](automatizados/)
-5. [Scripts semi-automatizados](semi-automatizados/)
+4. [Instalación de bash](#instalación-bash)
+5. [Scripts automatizados](automatizados/)
+6. [Scripts semi-automatizados](semi-automatizados/)
    - [Script de instalación vsftpd](semi-automatizados/script_ftp.bash)
    - [Script para liberar memoria de archivos temporales](semi-automatizados/script_borrarTemporales.bash)
-6. [Utilidades administrativas](utilidades/)
+7. [Utilidades administrativas](utilidades/)
    - [Script de administración para FTP](utilidades/script_adminFTP.bash)
    - [Script generador de contraseñas](utilidades/script_generadorContra.bash)
    - [Script para hacer copias de seguridad de directorios especificos](utilidades/script_respaldoP.bash)
@@ -44,3 +45,11 @@ Para ejecutar un archivo **.sh** se utiliza el comando:
 ./archivo.sh
 ```
 > **Nota:** "archivo" hace referencia al nombre del archivo.
+
+## Instalación bash
+Para asegurarse de que se tienen todos los requisitos necesarios, ejecute los siguientes comandos: 
+```bash 
+sudo apt update
+sudo apt install bash
+bash --version
+```
