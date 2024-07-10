@@ -13,7 +13,7 @@ Esta carpeta contiene scripts diseñados para ser ejecutados completamente de fo
      ```bash
      sudo bash script_monitorRecursos.bash
      ```
-   - **Archivo disponible:** [Script generador de reportes de recursos utilizados](automatizados/script_monitorRecursos.bash)
+   - **Archivo disponible:** [Script generador de reportes de recursos utilizados](script_monitorRecursos.bash)
 
 ## Requisitos
 - **bash** instalado en el emulador de terminal (versión 4.0 o superior recomendada)
