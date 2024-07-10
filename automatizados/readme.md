@@ -5,12 +5,11 @@ Esta carpeta contiene scripts diseñados para ser ejecutados completamente de fo
 1. [Lista de scripts](#lista-de-scripts)
 2. [Requisitos](#requisitos)
 4. [Forma de uso](#forma-de-uso)
-5. [Cómo Contribuir](#como-contribuir)
 
 ## Lista de scripts
 ### 1. `script_monitorRecursos.bash`
    - **Descripción**: Genera un reporte sobre el uso de CPU, uso de memoria, espacio disponible en disco y errores generados en terminal durante la sesión activa.
-   - **Uso manual**: 
+   - **Uso manual (solo ejecuta una vez)**: 
      ```bash
      sudo bash script_monitorRecursos.bash
      ```
@@ -36,19 +35,19 @@ Para que el script se ejecute de manera constante a intervalos regulares, puedes
 2. Agregue una nueva línea al archivo para configurar el intervalo de tiempo. Por ejemplo:
   - Para ejecutar el script cada 5 minutos:
     ```bash
-    */5 * * * * /bin/bash /ruta/a/la/carpeta/scripts/script_monitorRecursos.bash
+    */5 * * * * /bin/bash /ruta/a/la/carpeta/scripts/nombreScript.bash
     ```
   - Para ejecutar el script cada 10 minutos:
     ```bash
-    */10 * * * * /bin/bash /ruta/a/la/carpeta/scripts/script_monitorRecursos.bash
+    */10 * * * * /bin/bash /ruta/a/la/carpeta/scripts/nombreScript.bash
     ```
   - Para ejecutar el script cada hora:
     ```bash
-    0 * * * * /bin/bash /ruta/a/la/carpeta/scripts/script_monitorRecursos.bash
+    0 * * * * /bin/bash /ruta/a/la/carpeta/scripts/nombreScript.bash
     ```
   - Para ejecutar el script una vez al día a las 3 AM:
     ```bash
-    0 3 * * * /bin/bash /ruta/a/la/carpeta/scripts/script_monitorRecursos.bash
+    0 3 * * * /bin/bash /ruta/a/la/carpeta/scripts/nombreScript.bash
     ```
 3. Guarde el archivo crontab. Esto activará el cron job con el intervalo de tiempo especificado.
 
