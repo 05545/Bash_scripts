@@ -1,4 +1,4 @@
-# Scripts Automatizados
+# Scripts automatizados
 Esta carpeta contiene scripts diseñados para ser ejecutados completamente de forma automatizada. Aunque pueden ser ejecutados manualmente, están pensados para ser ejecutados de forma automática según la configuración.
 
 ## Tabla de Contenidos
@@ -13,6 +13,7 @@ Esta carpeta contiene scripts diseñados para ser ejecutados completamente de fo
      ```bash
      sudo bash script_monitorRecursos.bash
      ```
+   - **Archivo disponible:** [Script generador de reportes de recursos utilizados](/script_monitorRecursos.bash)
 
 ## Requisitos
 - **bash** instalado en el emulador de terminal (versión 4.0 o superior recomendada)
