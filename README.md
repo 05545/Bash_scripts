@@ -10,13 +10,7 @@ Este repositorio contiene una variedad de scripts útiles diseñados para automa
 4. [Instalación de bash](#instalación-bash)
 5. [Scripts automatizados](automatizados/)
 6. [Scripts semi-automatizados](semi-automatizados/)
-   - [Script de instalación vsftpd](semi-automatizados/script_ftp.bash)
-   - [Script para liberar memoria de archivos temporales](semi-automatizados/script_borrarTemporales.bash)
 7. [Utilidades administrativas](utilidades/)
-   - [Script de administración para FTP](utilidades/script_adminFTP.bash)
-   - [Script generador de contraseñas](utilidades/script_generadorContra.bash)
-   - [Script para hacer copias de seguridad de directorios especificos](utilidades/script_respaldoP.bash)
-   - [Script para el listado de servicios y procesos activos](utilidades/script_scannerServicios.bash)
 
 ## Clonación del repositorio
 En caso de que no se tenga instalado git, se tiene que ejecutar primero:
@@ -44,7 +38,7 @@ Para ejecutar un archivo **.sh** se utiliza el comando:
 ```sh
 ./archivo.sh
 ```
-> **Nota:** "archivo" hace referencia al nombre del archivo.
+> **Nota:** "archivo" hace referencia al nombre del archivo del script.
 
 ## Instalación bash
 Para asegurarse de que se tienen todos los requisitos necesarios, ejecute los siguientes comandos: 
